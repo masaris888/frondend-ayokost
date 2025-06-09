@@ -1,3 +1,4 @@
+<!-- halaman home -->
 <template>
   <div class="min-h-screen bg-gray-100">
     <!-- Hero -->
@@ -30,6 +31,7 @@
     </div>
   </div>
 </template>
+<!-- end halaman home -->
 
 <script>
 export default {
