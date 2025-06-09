@@ -1,4 +1,5 @@
- <template>
+<!-- navbar -->
+<template>
   <nav class="bg-green-600 text-white p-4 flex justify-between items-center">
     <h1 class="text-xl font-bold">KostKu</h1>
     <div class="space-x-4">
@@ -9,6 +10,7 @@
     </div>
   </nav>
 </template>
+<!-- end navbar -->
 
 
 <script>
