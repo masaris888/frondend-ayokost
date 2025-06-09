@@ -44,8 +44,10 @@ export default {
   mounted() {
     this.getKamars();
   },
+
+  //panggil API untuk mendapatkan data kamar menggunakan method get
   methods: {
-    
+
     getKamars() {
       fetch('https://kost-backend.anampict.workers.dev/kamar')
         .then(res => res.json())
