@@ -45,6 +45,7 @@ export default {
     this.getKamars();
   },
   methods: {
+    
     getKamars() {
       fetch('https://kost-backend.anampict.workers.dev/kamar')
         .then(res => res.json())
